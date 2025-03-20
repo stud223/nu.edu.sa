@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة القبول الإلكتروني - جامعة نجران</title>
+    <link href="https://fonts.googleapis.com/css2?family=Droid+Arabic+Kufi:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* أنماط جامعة نجران الرسمية */
+        :root {
+            --primary-color: #eef7ef;
+            --secondary-color: #c5a047;
+            --text-color: #070707;
+        }
+
+        body {
+            font-family: 'Droid Arabic Kufi', sans-serif;
+            margin: 0;
+            color: var(--text-color);
+        }
+
+        .university-header {
+            background: var(--primary-color);
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(249, 248, 248, 0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .university-logo {
+            width: 100px;
+            margin-left: 30px;
+        }
+
+        .main-nav {
+            flex-grow: 1;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 35px;
+        }
+
+        .nav-list a {
+            color: rgb(3, 3, 3);
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s;
+        }
+
+        .nav-list a:hover {
+            color: var(--secondary-color);
+        }
+        .img{
+            width: 300px;
+            height: 300px;
+            display: block;
+            size: 10px;;
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(44,95,45,0.9), rgba(44,95,45,0.9)),
+                        url('pattern-bg.jpg');
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .admission-portal-btn {
+            background: var(--secondary-color);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 30px;
+            transition: transform 0.3s;
+        }
+
+        .admission-portal-btn:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header class="university-header">
+        <div class="header-content">
+            <img src="logo.png" alt="شعار جامعة نجران" class="university-logo">
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="https://dadr.nu.edu.sa/home">الرئيسية</a></li>
+                    <li><a href="index.html">القبول</a></li>
+                    <li><a href="javascript:void(0)">البرامج</a></li>
+                    <li><a href="https://dadr.nu.edu.sa/95">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <h1>مرحبا بكم في بوابة القبول الإلكتروني</h1>
+        <a href="login.html" class="admission-portal-btn">الدخول إلى البوابة</a>
+    </section>
+    <div>
+<img src="https://dadr.nu.edu.sa/documents/56387/0/slider.webp/b5810fec-ad4d-15ca-2e24-13f09b9f6418?t=1740778879737&download=true" >
+    </div>
+
+</body>
+</html>
